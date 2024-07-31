@@ -6,7 +6,91 @@
 
 .container{
 	width: 80%;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: violet;
 	margin: auto;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid red;
+	padding: 0 1rem;
+}
+
+.logo{
+	width: 70px;
+}
+
+.menu-container{
+	display: flex;
+}
+
+.menu-container ul{
+		list-style: none;
+		display: flex;
+}
+
+.menu-container ul li{
+	margin: 0 30px 0 0;
+}
+
+.menu-container ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.hero-section{
+	min-height: 800px;
+	background-image: url("../img/img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	z-index: -10;
+}
+
+.back-drop{
+	min-height: 800px;
+	background-color: rgba(0, 0, 0, .5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.back-drop .btn-cta{
+	width: 8rem;
+	min-height: 3rem;
+	background-color: lime;
+	border: none;
+	border-radius: .8rem;
+	margin-top: 15rem;
+}
+
+.back-drop .btn-cta:hover{
+	cursor: pointer;
+	background-color: limegreen;
+}
+
+.about-section{
+	min-height: 400px;
+	margin: 100px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-img{
+	height: 450px;
+	border-radius: 2rem;
+}
+
+.about-text-container{
+	margin: 100px;
+	line-height: 2rem;
+}
+
+.about-text-container h1{
+	font-size: 3rem;
+	margin-bottom: 30px;
 }
